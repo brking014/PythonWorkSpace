@@ -1,6 +1,5 @@
 import tensorflow as tf
 import numpy as np
-import tensorflow.examples.tutorials.mnist.input_data as input_data
 
 
 def main():
@@ -45,6 +44,7 @@ def main():
             print(step, sess.run(W), sess.run(b))
 
     sess.close()
+
 
 # 得到最佳拟合结果 W: [[0.100  0.200]], b: [0.300]
 if __name__ == '__main__':
